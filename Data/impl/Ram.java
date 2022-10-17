@@ -10,16 +10,16 @@ public class Ram extends Parts {
         this.value = value;
     }
 
-    public String getvalue() {
+    public String getValue() {
         return value;
     }
 
-    public void setvalue(String value) {
+    public void setValue(String value) {
         this.value = value;
     }
     
     @Override
     public String toString() {
-        return String.format("Motherboard{%s, %s, %s}", getProducer(), getName(), getvalue());
+        return String.format("RAM{%s, %s, %s}", getProducer(), getName(), getValue());
     }
 }

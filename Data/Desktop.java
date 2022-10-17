@@ -5,9 +5,9 @@ import Data.impl.MotherBoard;
 import Data.impl.Ram;
 
 public class Desktop {
-    MotherBoard motherBoard;
-    Cpu processor;
-    Ram memory;
+    private MotherBoard motherBoard;
+    private Cpu processor;
+    private Ram memory;
 
     public Desktop(MotherBoard motherBoard, Cpu processor, Ram memory) {
         this.motherBoard = motherBoard;
